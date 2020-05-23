@@ -2,7 +2,11 @@
     text-align: center;
 }
 
-.info, #myCarousel{
+.left {
+    padding-right: 150px;
+}
+
+.info, #myCarousel {
     padding-left: 20px;
 }
 
