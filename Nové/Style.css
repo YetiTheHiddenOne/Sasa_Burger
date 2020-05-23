@@ -2,19 +2,9 @@
     text-align: center;
 }
 
-.left {
-    padding-right: 150px;
-}
 
 .info, #myCarousel {
     padding-left: 20px;
-}
-
-.box {
-    border-top: 1px solid black;
-    position: absolute;
-    left: 30px;
-    background: black;
 }
 
 .mid{
@@ -32,6 +22,7 @@
 
 td, address, .cent{
     padding-left: 150px;
+    width: 100%;
 }
 
 .bottom, #map_canvas{
@@ -69,6 +60,7 @@ body {
     font-family: "Comic Sans MS";
     /*color: white;*/
     width: 960px;
+    position: relative;
 }
 
 h3, h2, h4 {
@@ -112,6 +104,7 @@ footer {
 /* Carousel */
 .carousel-inner .carousel-item img {
     width: 100%;
+
 }
 
 .navbar, navbar-expand-md, navbar-dark, bg-dark, fixed-top{
@@ -694,6 +687,7 @@ pre {
     margin-right: auto;
     margin-left: auto;
     position: relative;
+
 }
 
 @media (min-width: 576px) {
@@ -5708,7 +5702,7 @@ button.close {
     }
 
 .carousel-control-prev {
-    left: 0;
+    right: 0;
 }
 
 .carousel-control-next {
