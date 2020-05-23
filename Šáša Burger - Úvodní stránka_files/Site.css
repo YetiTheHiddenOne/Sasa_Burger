@@ -1,0 +1,65 @@
+﻿.menulogoImage {
+    width: 50px;
+}
+
+.logoImage {
+    width: 100%;
+}
+
+.preline {
+    white-space: pre-line;
+}
+
+body {
+    padding-top: 60px;
+    /*padding-bottom: 20px;*/
+    background-color: #ffe47c;
+    font-family: "Comic Sans MS";
+    /*color: white;*/
+}
+
+h3, h2, h4 {
+    background-color: #f9d271;
+}
+
+.navbar {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.alergens {
+    color: Gray;
+}
+
+footer {
+    color: #c73811;
+    text-align: center;
+}
+
+.btn-sm {
+    line-height: 15px;
+}
+
+.modal-header {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.modal-body {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/* Carousel */
+.carousel-inner .carousel-item img {
+    width: 100%;
+}
+
+/*.carousel-inner .carousel-item h1 {
+    color: black;
+}*/
