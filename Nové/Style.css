@@ -1,4 +1,41 @@
-﻿.padding {
+﻿h4{
+    text-align: center;
+}
+
+.info, #myCarousel{
+    padding-left: 20px;
+}
+
+.box {
+    border-top: 3px solid black;
+}
+
+.mid, footer{
+    padding-left: 450px;
+}
+
+#MapHeader{
+    width: 470px;
+}
+
+#map_canvas{
+    width: 470px;
+    height: 235px;
+}
+
+td, address, .cent{
+    padding-left: 150px;
+}
+
+.bottom, #map_canvas{
+    padding-bottom: 17px;
+}
+
+adress, .top {
+    padding-top: 15px;
+}
+
+.padding {
     padding-left: 10px;
 }
 
@@ -24,6 +61,7 @@ body {
     background-color: #ffe47c;
     font-family: "Comic Sans MS";
     /*color: white;*/
+    width: 960px;
 }
 
 h3, h2, h4 {
