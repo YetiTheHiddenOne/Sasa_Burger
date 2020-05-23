@@ -7,10 +7,13 @@
 }
 
 .box {
-    border-top: 3px solid black;
+    border-top: 1px solid black;
+    position: absolute;
+    left: 30px;
+    background: black;
 }
 
-.mid, footer{
+.mid{
     padding-left: 450px;
 }
 
@@ -58,7 +61,7 @@ tr {
 body {
     padding-top: 60px;
     /*padding-bottom: 20px;*/
-    background-color: #ffe47c;
+    background: url(bcg.png) #FFE498;
     font-family: "Comic Sans MS";
     /*color: white;*/
     width: 960px;
@@ -85,6 +88,7 @@ h3, h2, h4 {
 footer {
     color: #c73811;
     text-align: center;
+    padding-left: 455px;
 }
 
 .btn-sm {
@@ -685,6 +689,7 @@ pre {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
 }
 
 @media (min-width: 576px) {
