@@ -18,6 +18,29 @@ body {
   }
 }
 
+.black{
+	color: black;
+}
+
+.container{
+	padding-top: 15px;
+}
+
+.top, .bottom{
+	padding-top: 5px;
+}
+
+.padding-bottom-box{
+	padding-bottom: 15px;
+}
+
+.padding-top-box{
+	padding-top: 15px;
+}
+
+.padding{
+	padding-left: 12px;
+}
 a.btn-primary{
 	background-color: #4eae3a;
 	border-color: #4eae3a;
