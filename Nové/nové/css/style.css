@@ -18,6 +18,73 @@ body {
   }
 }
 
+.Warning-header {
+	background-color: #FF1212;
+	color: #4eae3a;
+	border-top-left-radius: 4.8px;
+	border-top-right-radius: 4.8px;
+}
+
+.Warning {
+	background: #FB6355;
+}
+
+.Warning-text{
+	font-weight: bold;
+}
+.cent{
+	padding-left: 390px;
+	padding-right: 390px;
+}
+
+.center-adress{
+	padding-left: 470px;
+}
+
+.map-center{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+/*.align{
+	text-align: justify;
+}*/
+
+.table{
+	padding-left: 485px;
+}
+/*----- + 10px, +10px, +20px------*/
+.monday{
+	padding-left: 55px;
+}
+
+.tuesday{
+	padding-left: 69px;
+}
+
+.wednesday {
+	padding-left: 59px;
+}
+
+.thursday {
+	padding-left: 55px;
+}
+
+.friday {
+	padding-left: 67px;
+}
+
+.saturday {
+	padding-left: 56px;
+}
+
+.sunday {
+	padding-left: 56px;
+}
+
 .black{
 	color: black;
 }
