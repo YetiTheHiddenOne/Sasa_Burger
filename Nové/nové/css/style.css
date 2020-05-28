@@ -14,6 +14,25 @@ body {
 	font-size: 11px;
 }
 
+.none{
+	list-style-type: none;
+}
+
+.href {
+	text-decoration: none;
+	font-size: 20px;
+	color: #4e3914;
+}
+
+	.href:hover {
+		cursor: pointer;
+		text-decoration: none;
+		font-size: 20px;
+		color: #4e3914;
+		font-weight: bold;
+	}
+
+
 h5{
 	padding-left: 14px;
 }
