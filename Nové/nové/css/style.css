@@ -18,20 +18,41 @@ h5{
 	padding-left: 14px;
 }
 
-.description{
+.description, .border-bottom {
 	padding-left: 20px;
+	border-bottom: 2px solid #4e3914;
 }
 
 .prizeSaS{
 	padding-left: 85px;
 }
 
-.prizeNS{
+.prizePO {
+	padding-left: 53px;
+}
+
+.prizeCM {
+	padding-left: 3px;
+}
+
+.prizeTO {
+	padding-left: 45px;
+}
+
+.prizeK {
+	padding-left: 190px;
+}
+
+.prizeNS {
 	padding-left: 90px;
 }
 
 .prizeSpS{
 	padding-left: 40px;
+}
+
+.prizeBeH{
+	padding-left: 75px;
 }
 
 .prizeRS {
