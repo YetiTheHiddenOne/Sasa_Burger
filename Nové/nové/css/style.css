@@ -9,6 +9,110 @@ body {
   color: #4e3914;
 }
 
+.alergens{
+	font-weight: normal;
+	font-size: 11px;
+}
+
+h5{
+	padding-left: 14px;
+}
+
+.description{
+	padding-left: 20px;
+}
+
+.prizeSaS{
+	padding-left: 85px;
+}
+
+.prizeNS{
+	padding-left: 90px;
+}
+
+.prizeSpS{
+	padding-left: 40px;
+}
+
+.prizeRS {
+	padding-left: 95px;
+}
+
+.prizeDS{
+	padding-left: 115px;
+}
+
+.prizeMS{
+	padding-left: 40px;
+}
+
+.prizeBLTS {
+	padding-left: 185px;
+}
+
+.prizeAS{
+	padding-left: 65px;
+}
+
+.prizeSS{
+	padding-left: 15px;
+}
+
+.prizeIS{
+	padding-left: 55px;
+}
+
+.prizeWS{
+	padding-left: 55px;
+}
+
+.prizeMB {
+	padding-left: 145px;
+}
+
+.prizeOBB {
+	padding-left: 110px;
+}
+.prizeKB {
+	padding-left: 133px;
+}
+
+.prizeSBR {
+	padding-left: 40px;
+}
+
+.prizeSVB {
+	padding-left: 90px;
+}
+
+.prizeSB {
+	padding-left: 130px;
+}
+
+.prizeBH {
+	padding-left: 85px;
+}
+
+.prizeMH {
+	padding-left: 50px;
+}
+
+.prizeVH {
+	padding-left: 65px;
+}
+
+.prizeHH {
+	padding-left: 60px;
+}
+
+.prizeSH {
+	padding-left: 80px;
+}
+
+.prizeLH {
+	padding-left: 80px;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 80px;
