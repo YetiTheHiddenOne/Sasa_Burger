@@ -30,10 +30,12 @@ tr{
 }
 
 body {
-  padding-top: 54px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  color: #4e3914;
+	padding-top: 54px;
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'Rock Salt', cursive;
+	font-size: 14px;
+	color: #424f46;
+	background-image: url(images/background.png);
 }
 
 .alergens{
@@ -66,7 +68,7 @@ h5{
 
 .description, .border-bottom {
 	padding-left: 20px;
-	border-bottom: 2px solid #4e3914;
+	border-bottom: 2px solid #d1b271;
 }
 
 @media (min-width: 992px) {
@@ -77,7 +79,7 @@ h5{
 
 .Warning-header {
 	background-color: #FF1212;
-	color: #4eae3a;
+	color: #424f46;
 	border-top-left-radius: 4.8px;
 	border-top-right-radius: 4.8px;
 }
@@ -145,16 +147,16 @@ h4{
 	padding-left: 12px;
 }
 a.btn-primary{
-	background-color: #4eae3a;
-	border-color: #4eae3a;
+	background-color: #424f46;
+	border-color: #424f46;
 }
 a.btn-primary:hover{
 	background-color: #5ec549;
 	border-color: #5ec549;
 }
 button.btn-primary{
-	background-color: #4eae3a;
-	border-color: #4eae3a;
+	background-color: #424f46;
+	border-color: #424f46;
 }
 button.btn-primary:hover{
 	background-color: #5ec549;
@@ -162,16 +164,16 @@ button.btn-primary:hover{
 }
 
 a.btn-secondary{
-	background-color: #4eae3a;
-	border-color: #4eae3a;
+	background-color: #424f46;
+	border-color: #424f46;
 }
 a.btn-secondary:hover{
 	background-color: #5ec549;
 	border-color: #5ec549;
 }
 button.btn-secondary{
-	background-color: #4eae3a;
-	border-color: #4eae3a;
+	background-color: #424f46;
+	border-color: #424f46;
 }
 button.btn-secondary:hover{
 	background-color: #5ec549;
@@ -179,7 +181,8 @@ button.btn-secondary:hover{
 }
 
 .top-nav{
-	background-color: #ffffff !important;
+	/*background-color: #ffffff !important;*/
+	background-color: #d1b271;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
@@ -189,13 +192,13 @@ button.btn-secondary:hover{
 	text-transform: uppercase;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:hover{
-	background: #4eae3a;
-	color: #ffffff;
+	background: #fed90f;
+	color: black;
 	border-radius: 4.8px;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active{
-	background: #4eae3a;
-	color: #ffffff;
+	background: #FED90F;
+	color: black;
 	border-radius: 4.8px;
 }
 .navbar-expand-lg.top-nav .navbar-nav .dropdown-menu{
@@ -215,17 +218,20 @@ button.btn-secondary:hover{
 }
 .navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:hover{
 	background: none;
-	color: #4eae3a;
+	color: #fed90f;
 }
 .top-nav .navbar-toggler{
 	color: #4e3914;
 	border-color: #4e3914;
 }
 .top-nav .navbar-toggler:hover{
-	color: #4eae3a;
-	border-color: #4eae3a;
+	color: black;
+	border-color: #424f46;
 }
 
+.bcg{
+	background-image: url(images/background.png);
+}
 
 .slider-main .carousel .carousel-inner .carousel-item:before{
 	content: "";
@@ -258,8 +264,8 @@ button.btn-secondary:hover{
 }
 
 .services-bar .card .card-header{
-	background-color: #4e3914;
-	color: #4eae3a;
+	background-color: #d1b271;
+	color: #424f46;
 	font-size: 25px;
 	font-weight: 400;
 }
@@ -297,7 +303,7 @@ button.btn-secondary:hover{
 	position: absolute;
 	left: -15px;
 	top: 0px;
-	color: #4eae3a;
+	color: #424f46;
 }
 .portfolio-main{
 	padding: 30px 0px;
@@ -315,12 +321,12 @@ button.btn-secondary:hover{
 .portfolio-main .card .card-body .card-title{
 	margin-bottom: 0px;
 }
-.portfolio-main .card .card-body .card-title a{
-	font-size: 20px;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: #4eae3a;
-}
+	.portfolio-main .card .card-body .card-title a {
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #424f46;
+	}
 .portfolio-main .card .card-body{
 	background: #4e3914;
 	padding: 10px 20px;
@@ -353,7 +359,7 @@ button.btn-secondary:hover{
 
 .footer { 
 	width:100%; 
-	background-color:#263238; 
+	background-color: #d1b271; 
 	padding:10px 0px 25px 0px;
 	}
 
@@ -365,7 +371,7 @@ button.btn-secondary:hover{
 	}
 footer p, .tel { 
 	font-size:13px; 
-	color:#CCC; 
+	color: black; 
 	padding-bottom:0px; 
 	margin-bottom:8px;
 	text-align: center
@@ -427,9 +433,9 @@ footer p, .tel {
 .footer_ul2_amrc li i { 
 	margin-top:5px;
 	}
-.footer_ul2_amrc li a {
-	color: #4eae3a;
-}
+	.footer_ul2_amrc li a {
+		color: #424f46;
+	}
 .bottom_border { 
 	border-bottom:1px solid #323f45; 
 	padding-bottom:20px;
@@ -456,8 +462,8 @@ footer p, .tel {
 	padding: 20px 0px;
 	text-align: center;
 }
-.copyright a{
-	color: #4eae3a;
+.copyright a {
+	color: #424f46;
 	text-decoration: underline;
 }
 .copyright a:hover{
@@ -486,10 +492,10 @@ footer p, .tel {
 	height:20px; 
 	text-align:center;
 	}
-.social_footer_ul li a:hover {
-	color: #4eae3a; 
-	border:2px solid #4eae3a; 
-}
+	.social_footer_ul li a:hover {
+		color: #424f46;
+		border: 2px solid #424f46;
+	}
 
 /* ---- All Pages CSS ---- */
 
@@ -517,8 +523,8 @@ footer p, .tel {
 	font-size: 14px;
 }
 
-.breadcrumb-main .breadcrumb{
-	background: #4eae3a;
+.breadcrumb-main .breadcrumb {
+	background: #424f46;
 }
 .breadcrumb-main .breadcrumb li a{
 	color: #ffffff;
@@ -542,7 +548,7 @@ footer p, .tel {
 	border: none;	
 }
 .team-members-box .card .card-footer{
-	background: #4eae3a;
+	background: #424f46;
 }
 .team-members-box .card .card-footer ul{
 	margin: 0px;
@@ -581,7 +587,7 @@ footer p, .tel {
 	text-align: center;
 }
 .pagination_bar .pagination .page-item .page-link:hover{
-	background: #4eae3a;
+	background: #424f46;
 }
 .portfolio-item .card-title a{
 	font-size: 20px;
@@ -614,7 +620,7 @@ footer p, .tel {
 	color: #ffffff !important;
 }
 .blog-entries .card .card-footer a{
-	color: #4eae3a;
+	color: #424f46;
 }
 .blog-right-side .card{
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
@@ -637,7 +643,7 @@ footer p, .tel {
 	border-radius: 4.8px;
 	padding: 6px;
 	background: #4e3914;
-	color: #4eae3a;
+	color: #424f46;
 	display: inline-block;
 }
 .pagination_bar_arrow .pagination .page-item .page-link{
@@ -649,7 +655,7 @@ footer p, .tel {
 	text-align: center;
 }
 .pagination_bar_arrow .pagination .page-item .page-link:hover{
-	background: #4eae3a;
+	background: #424f46;
 }
 .faq-main{
 	padding: 30px 35px;
@@ -675,7 +681,7 @@ footer p, .tel {
 	text-transform: capitalize;
 }
 .accordion-single .card-header h5 a:hover{
-	color: #4eae3a;
+	color: #424f46;
 	text-decoration: none;
 }
 
@@ -702,7 +708,7 @@ footer p, .tel {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #4eae3a;
+    color: #424f46;
 }
 .error-contents{
 	padding: 30px 0px;
@@ -735,7 +741,7 @@ footer p, .tel {
 	padding: 4px 0;
 	right: -36px;
 	transform: rotate(40deg);
-	background-color: #4eae3a;
+	background-color: #424f46;
 	color: #4e3914;
 }
 
