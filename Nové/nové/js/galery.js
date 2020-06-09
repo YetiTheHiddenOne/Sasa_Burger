@@ -3,22 +3,22 @@ let imagesData = [
 	{
 		photo: 'images-galery/Hot-Cappy.jpg',
 		title: 'Hot Cappy',
-		description: 'S tím u nás nikdy neudìláte chybu'
+		description: 'S tÃ­m u nÃ¡s nikdy neudÄ›lÃ¡te chybu'
 	},
 
 	{
 		photo: 'images-galery/jsme-tu-pro-vas.jpg',
-		title: 'Jsme tu vždy pro Vás!',
+		title: 'Jsme tu vï¿½dy pro Vï¿½s!',
 	},
 
 	{
 		photo: 'images-galery/okurka-burger.jpg',
-		title: 'U nás se dobøe najíte i napijete!',
+		title: 'U nï¿½s se dobï¿½e najï¿½te i napijete!',
 	},
 
 	{
 		photo: 'images-galery/dvojity-burger.jpg',
-		title: 'Kdo si dá dvojitý burger?',
+		title: 'Kdo si dï¿½ dvojitï¿½ burger?',
 	},
 
 ];
@@ -45,13 +45,13 @@ $('.thumbnail').click((event) => {
 
 $('#right-arrow').click(() => {
 	currentPhoto++;
-	currentPhoto = currentPhoto % 9;
+	currentPhoto = currentPhoto % 4;
 	loadPhoto(currentPhoto);
 });
 
 $('#left-arrow').click(() => {
 	currentPhoto--;
-	currentPhoto = (currentPhoto + 9) % 9;
+	currentPhoto = (currentPhoto + 4) % 4;
 	loadPhoto(currentPhoto);
 });
 
