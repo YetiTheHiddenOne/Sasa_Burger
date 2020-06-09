@@ -222,6 +222,7 @@ button.btn-secondary:hover{
 	border-color: #4eae3a;
 }
 
+
 .slider-main .carousel .carousel-inner .carousel-item:before{
 	content: "";
 	position: absolute;
