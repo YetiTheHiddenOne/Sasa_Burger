@@ -1,16 +1,16 @@
 ﻿body {
-    margin: 0px;
+    margin-top: 0px;
     background-image: url("./images/background.jpg");
-    background: linear-gradient( to right, grey, rgba(255, 255, 255, 0.4730), grey );
+    background: linear-gradient( to right, #424f46, rgba(255, 255, 255, 0.4730), #424f46 );
 }
 
 .all {
+    padding-top: 100px;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rock Salt', cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .photo-viewer {

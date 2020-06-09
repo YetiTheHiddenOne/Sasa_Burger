@@ -29,13 +29,15 @@ tr{
 	margin-right: auto;
 }
 
+nav{
+	background-color: #d1b271;
+}
+
 body {
 	padding-top: 54px;
 	/*font-family: 'Poppins', sans-serif;*/
 	font-family: 'Rock Salt', cursive;
 	font-size: 14px;
-	color: #424f46;
-	background-image: url(images/background.png);
 }
 
 .alergens{
@@ -167,23 +169,26 @@ a.btn-secondary{
 	background-color: #424f46;
 	border-color: #424f46;
 }
+
 a.btn-secondary:hover{
 	background-color: #5ec549;
 	border-color: #5ec549;
 }
+
 button.btn-secondary{
 	background-color: #424f46;
 	border-color: #424f46;
 }
+
 button.btn-secondary:hover{
 	background-color: #5ec549;
 	border-color: #5ec549;
 }
 
 .top-nav{
-	/*background-color: #ffffff !important;*/
 	background-color: #d1b271;
 }
+
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
 	color: #4e3914;
@@ -191,46 +196,52 @@ button.btn-secondary:hover{
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:hover{
 	background: #fed90f;
 	color: black;
 	border-radius: 4.8px;
 }
+
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active{
 	background: #FED90F;
 	color: black;
 	border-radius: 4.8px;
 }
+
 .navbar-expand-lg.top-nav .navbar-nav .dropdown-menu{
 	margin: 0px;
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
 	border: none;
 	padding: 20px;
+	background: #fed90f;
 }
-.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item{
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item {
 	font-size: 14px;
+	background: #FED90F;
 	padding: 0px;
 	padding-bottom: 15px;
 	font-weight: 300;
 }
-.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:last-child{
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:last-child {
 	padding: 0px;
+	background: #FED90F;
 }
-.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:hover{
-	background: none;
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:hover {
+	background: #FED90F;
 	color: #fed90f;
 }
-.top-nav .navbar-toggler{
+.top-nav .navbar-toggler {
 	color: #4e3914;
+	background: #FED90F;
 	border-color: #4e3914;
 }
-.top-nav .navbar-toggler:hover{
+.top-nav .navbar-toggler:hover {
 	color: black;
 	border-color: #424f46;
-}
-
-.bcg{
-	background-image: url(images/background.png);
+	background: #FED90F;
 }
 
 .slider-main .carousel .carousel-inner .carousel-item:before{
@@ -269,8 +280,8 @@ button.btn-secondary:hover{
 	font-size: 25px;
 	font-weight: 400;
 }
-.services-bar .card .card-footer{
-	background-color: #4e3914;
+.services-bar .card .card-footer {
+	background-color: #d1b271;
 }
 .about-main{
 	padding: 30px 0px;
@@ -838,17 +849,3 @@ footer p, .tel {
 		font-size: 14px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
